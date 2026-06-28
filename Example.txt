@@ -1,20 +1,20 @@
 
 
-        $all_the_products = $productRepository->findAll(); 
-        $all_the_natures_of_products = $natureOfTheProductRepository->findAll(); 
-	…
-	$repository_(n-3) = $repository_(n-3)->findAll(); 
-	$repository_(n-2) = $repository_(n-2)->findAll(); 
-	$repository_(n-1) = $repository_(n-1)->findAll(); 
-	$repository_(n) = $repository_(n)->findAll(); 
+$all_the_products = $productRepository->findAll(); 
+$all_the_natures_of_products = $natureOfTheProductRepository->findAll(); 
+…
+$repository_(n-3) = $repository_(n-3)->findAll(); 
+$repository_(n-2) = $repository_(n-2)->findAll(); 
+$repository_(n-1) = $repository_(n-1)->findAll(); 
+$repository_(n) = $repository_(n)->findAll(); 
 
 
-        dd($all_the_products, $all_the_natures_of_products, ..., 
-	$repository_(n-3), $repository_(n-2), $repository_(n-1), $repository_(n)); 
+dd($all_the_products, $all_the_natures_of_products, ..., 
+$repository_(n-3), $repository_(n-2), $repository_(n-1), $repository_(n)); 
 
-	Le cas précédent manifeste le fait que n peut avoir des valeurs qui tendent vers +l'infini.
-	En revanche, normalement nous devons transmettre à la fonction dd() des données quantifiables.
-
+Le cas précédent manifeste le fait que n peut avoir des valeurs qui tendent vers +l'infini.
+En revanche, normalement nous devons transmettre à la fonction dd() des données quantifiables.
+    
        
 
 
